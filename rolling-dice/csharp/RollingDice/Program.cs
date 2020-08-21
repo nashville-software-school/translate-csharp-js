@@ -19,7 +19,6 @@ namespace RollingDice
                 {
                     message += " DOUBLES!";
                 }
-
                 Console.WriteLine(message);
             }
         }
