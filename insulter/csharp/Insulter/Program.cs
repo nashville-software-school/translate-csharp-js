@@ -22,7 +22,7 @@ namespace Insulter
             List<int> indexes = new List<int>();
             while (indexes.Count < 3)
             {
-                int candidate = new Random().Next(0, insults.Count - 1);
+                int candidate = new Random().Next(0, insults.Count);
                 if (!indexes.Contains(candidate))
                 {
                     indexes.Add(candidate);
