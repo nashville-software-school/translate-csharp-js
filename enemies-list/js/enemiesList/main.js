@@ -6,12 +6,14 @@ function main() {
   console.log("My Enemies List!");
   console.log("----------------");
 
+  //Enemy info array
   const enemies = [
     {
       firstName: "Joshua",
       lastName: "Flowers",
       offences: ["Being a jerk to me in elementary school",
         "Not being nice to me in elementary school"],
+      //BOOleon
       isReallyHated: true
     },
 
@@ -50,13 +52,16 @@ function main() {
     }
   ]
 
+  // for loop that pulls enemies names and info out of array
   for (let enemy of enemies) {
     if (enemy.isReallyHated === true) {
-      console.log(`${enemy.firstName} ${enemy.lastName} really really displike! EW.`);
+      console.log(`${enemy.firstName} ${enemy.lastName} really really dislike! EW.`);
     } else {
       console.log(`${enemy.firstName} ${enemy.lastName} still greatly dislike, but don't loathe entirely.`);
     }
   }
 
 }
+
+// calling the main javascript function
 main();
