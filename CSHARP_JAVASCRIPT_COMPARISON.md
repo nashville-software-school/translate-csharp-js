@@ -188,7 +188,7 @@ Person ronny = new Person("Ronny", new DateTime(2000, 4, 1), new List<string> { 
 Person june = new Person("June", new DateTime(1988, 10, 31), new List<string> { "carpentry", "animal husbandry"} );
 Person selam = new Person("Selam", new DateTime(1994, 5, 22), new List<string> { "opera", "juggling", "skeet shooting"} );
 
-List<Person> people = new List<Person>() { ronny, salam };
+List<Person> people = new List<Person>() { ronny, selam };
 people.Add(june);
 ```
 
